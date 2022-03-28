@@ -28,16 +28,18 @@ nav {
 }
 
 @keyframes top {
-  from {}
-  to {}
+  from {transform: skew(0deg, 0deg);}
+  to {transform-origin: top left 50px;
+    transform: rotate(45deg) scale(1.35);}
 }
 
 @keyframes middle {
-  from {}
-  to {}
+  from {background-color: rebeccapurple;}
+  to {opacity: 0;}
 }
 
 @keyframes bottom {
-  from {}
-  to {}
+  from {transform: skew(0deg, 0deg);}
+  to {transform-origin: bottom left 50px;
+    transform: rotate(-45deg) scale(1.35);}
 }
